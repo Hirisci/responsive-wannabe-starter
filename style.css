@@ -164,10 +164,10 @@ img {
   /* BLOCCO LEZIONI */
   #lezioni .row>.left,
   #lezioni .row>.right {
-    width: 70%;
+    width: calc(100%/2 - 30px);
     text-align: center;
-    float: none;
-    margin: 20px auto;
+    float: left;
+    margin: 15px;
   }
   
   #lezioni .row img {
@@ -219,5 +219,7 @@ img {
 }
 
 @media screen and (min-width: 900px){
-  
+  body{
+    
+  }
 }
